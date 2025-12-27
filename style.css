@@ -1,0 +1,26 @@
+body{
+    font-family:Arial, sans-serif;
+    text-align:center;
+    margin-top:50px;
+}
+
+.counter-box{
+    display:inline-flex;
+    align-items:center;
+    gap:10px;
+    border:1px solid #ccc;
+    padding:20px;
+    border-radius:8px;
+}
+
+button{
+    font-size:24px;
+    padding:5px 15px;
+    cursor:pointer;
+}
+
+#value{
+    font-size:24px;
+    min-width:40px;
+    display:inline-block;
+}
